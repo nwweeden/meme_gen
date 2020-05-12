@@ -1,0 +1,71 @@
+#welcome {
+    background-color: #94f0f1;
+    font-weight: bolder;
+    font-size: 70px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ #instructions {
+    font-style: italic;
+    background-color: #f2b1d8;
+    font-size: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    font-family: monospace;
+}
+
+#line {
+    padding-top: 5px;
+    margin-top: 20px;
+    width: 90%;
+    background-color: #ffdc6a;
+}
+
+
+label * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+
+#memes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: 94f0f1;
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: bolder;
+    text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+#memes div {
+    margin-top: 20px;
+}
+
+#memes img {
+    width: 400px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}

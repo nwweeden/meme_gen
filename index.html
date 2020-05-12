@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id = 'welcome'>Meme Creator!</div>
+    <div id = 'instructions'>Fill out the form to create a custom meme</div>
+    <form action="" id = "memeForm">
+        <p>
+            <label for="img"> Image URL:
+                <input type="text" placeholder="Copy paste the image url" name = "img" id = "image" width="250px"> 
+            </label>
+        </p>
+        <p>
+            <label for="tt"> Text on Top:
+                <input type="text" placeholder="Type the text to appear at the top of the meme (optional)" name = "tt" id = "topText"> 
+            </label>
+        </p>
+        <p>
+            <label for="bt"> Text on Bottom:
+                <input type="text" placeholder="Type the text to appear at the bottom of the meme (optional)" name = "bt" id = "bottomText"> 
+            </label>
+        </p>
+        <input type="submit">
+    </form>
+    <div id ='line'></div>
+    <div id = "memes">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
